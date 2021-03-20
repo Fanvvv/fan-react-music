@@ -26,6 +26,8 @@ export const HeaderLeft = styled.div`
     width: 176px;
     height: 69px;
     background-position: 0 0;
+    // 给logo下的文字进行隐藏
+    text-indent: -9999px;
   }
 
   .select-list {
