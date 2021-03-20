@@ -10,11 +10,13 @@ import JYAppFooter from "@/components/app-footer";
 export default memo(function App() {
   return (
     <div>
-      {/* app-header */}
-      <JYAppHeader />
-      <HashRouter>{renderRoutes(routes)}</HashRouter>
-      {/* app-footer */}
-      <JYAppFooter />
+      <HashRouter>
+        {/* app-header */}
+        <JYAppHeader />
+        {renderRoutes(routes)}
+        {/* app-footer */}
+        <JYAppFooter />
+      </HashRouter>
     </div>
   );
 });
